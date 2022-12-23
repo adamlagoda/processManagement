@@ -1,0 +1,130 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "POST",
+        "url": "/process"
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": {
+          "PI_ID": "864004",
+          "DELAY": "123",
+          "DELAYER_ACTION": "action",
+          "DIRECTION": "DIR",
+          "DRSUSER": "user",
+          "FACH": "7",
+          "GESELLSCHAFT": "21",
+          "GMSSTATENAME": "appointed",
+          "GRUND": "MPM mit b030 43 zum 15.11.13 sto.",
+          "GST": "GS",
+          "INFOKZ": "20",
+          "INFOTEXT": "Start Standardvorgang",
+          "KUNDENNR": "1020304",
+          "LASTEMPLGVNNAME": "Cengiz Turker",
+          "LASTEMPLOYEEID": "IVK",
+          "LASTEMPLSURNAME": "surname",
+          "LASTSTEPTYPEID": "1569",
+          "LFDNR": "31",
+          "MSE_STATUS": "9",
+          "PRIORITY": "1",
+          "PRUEFKZ": "Start",
+          "RESUMED_AT_TIMESTAMP": "12.09.2012 11:00",
+          "ROLEID_1": "VOS_S/CB-HKS",
+          "ROLEID_2": "roleId2",
+          "ROLEID_3": "roleId3",
+          "ROLEID_N": "roleIdN",
+          "ROLENAME": "Schaden-Clearing-BO",
+          "SCHADENJAHR": "2011",
+          "SCHADENNR": "number",
+          "SCHADENNR_ZUERICH": "number",
+          "SENDTYPE": "instantiated",
+          "SPARTE": "K1",
+          "STATUS": "Schrank",
+          "STEPTYPEID": "4966",
+          "STEPTYPENAME": "Vorbereitung Rule-Engine-Test",
+          "USERID": "mvshost",
+          "VARIANTE1": "20128",
+          "VARIANTE2": "variante2",
+          "VERTRAGSNR": "21-524511-42701-K1",
+          "VERTRAGS_ID": "524511042701",
+          "VIS": "1",
+          "VORGANG_STEUERFLAG": "START",
+          "VOSID": "ser-1016646",
+          "VOSTYPE": "AUSmB",
+          "VOS_MOP_TYPE_NAME": "20099",
+          "WEITERLEITBAR": "1",
+          "CLIENT_ORG_ID": "DE",
+          "CLIENT_ID": "00"
+        }
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/process"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json"
+        },
+        "jsonBody": [
+          {
+            "PI_ID": "864004",
+            "DELAY": "123",
+            "DELAYER_ACTION": "action",
+            "DIRECTION": "DIR",
+            "DRSUSER": "user",
+            "FACH": "7",
+            "GESELLSCHAFT": "21",
+            "GMSSTATENAME": "appointed",
+            "GRUND": "MPM mit b030 43 zum 15.11.13 sto.",
+            "GST": "GS",
+            "INFOKZ": "20",
+            "INFOTEXT": "Start Standardvorgang",
+            "KUNDENNR": "1020304",
+            "LASTEMPLGVNNAME": "Cengiz Turker",
+            "LASTEMPLOYEEID": "IVK",
+            "LASTEMPLSURNAME": "surname",
+            "LASTSTEPTYPEID": "1569",
+            "LFDNR": "31",
+            "MSE_STATUS": "9",
+            "PRIORITY": "1",
+            "PRUEFKZ": "Start",
+            "RESUMED_AT_TIMESTAMP": "12.09.2012 11:00",
+            "ROLEID_1": "VOS_S/CB-HKS",
+            "ROLEID_2": "roleId2",
+            "ROLEID_3": "roleId3",
+            "ROLEID_N": "roleIdN",
+            "ROLENAME": "Schaden-Clearing-BO",
+            "SCHADENJAHR": "2011",
+            "SCHADENNR": "number",
+            "SCHADENNR_ZUERICH": "number",
+            "SENDTYPE": "instantiated",
+            "SPARTE": "K1",
+            "STATUS": "Schrank",
+            "STEPTYPEID": "4966",
+            "STEPTYPENAME": "Vorbereitung Rule-Engine-Test",
+            "USERID": "mvshost",
+            "VARIANTE1": "20128",
+            "VARIANTE2": "variante2",
+            "VERTRAGSNR": "21-524511-42701-K1",
+            "VERTRAGS_ID": "524511042701",
+            "VIS": "1",
+            "VORGANG_STEUERFLAG": "START",
+            "VOSID": "ser-1016646",
+            "VOSTYPE": "AUSmB",
+            "VOS_MOP_TYPE_NAME": "20099",
+            "WEITERLEITBAR": "1",
+            "CLIENT_ORG_ID": "DE",
+            "CLIENT_ID": "00"
+          }
+        ]
+      }
+    }
+  ]
+}
